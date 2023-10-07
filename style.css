@@ -1,0 +1,60 @@
+
+
+.homepage {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    background-image: url(billard.png);
+    height: 100vh;
+    backdrop-filter: blur(15px);
+}
+
+.accessdiv {
+    border: 1px solid white;
+    margin: auto 80px;
+    border-radius: 20px;
+    padding: 30px auto;
+    backdrop-filter: blur(10px);
+}
+
+.img {
+    margin: 30px auto;
+}
+
+.p1 {
+    color: rgb(247, 247, 253);
+    font-size: 23px;
+}
+
+#twenty-older,
+#twenty-under {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 8px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(253, 213, 165);
+    cursor: pointer;
+}
+
+#twenty-older a {
+    text-decoration: none;
+    color: black;
+}
+
+#twenty-under:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.81);
+}
+
+#twenty-older:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.81);
+}
+
+.p2 {
+    color: rgb(185, 218, 252);
+}
+

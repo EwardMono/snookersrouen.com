@@ -1,0 +1,457 @@
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(255, 165, 30);
+}
+
+.headerone {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 18px;
+    font-size: 15px; 
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+}  
+
+
+
+.headericon img{
+    width: 65%;
+}
+
+#bar {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 320px;
+        right: -800px;
+        height: 10vh;
+        width: 750px;
+        background-color: rgb(255, 165, 30);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.91);
+        padding: 40px 0 0 10px;
+        transition: 1s ease;
+    }
+
+
+    #bar {
+        display: flex;
+        font-size: 30px;
+        margin: 20px;
+        color: rgb(2, 136, 252);
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #close {
+        font-size: 27px;
+        top: 5px;
+        position: absolute;
+        left: 10px;
+        color: rgb(2, 2, 2);
+        display: flex;
+    }
+
+    .accessdiv {
+        height: 70vh;
+    }
+
+    #twenty-older, #twenty-under {
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage {
+        padding-top: 220px;
+        background-image: url(./images/pooltable.jpg);
+        height: 85vh;
+        backdrop-filter: blur(15px);
+    }
+}
+
+@media (max-width: 477px) {
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 320px;
+        right: -800px;
+        height: 30vh;
+        width: 350px;
+        background-color: rgb(255, 165, 30);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.91);
+        padding: 40px 0 0 10px;
+        transition: 1s ease;
+    }
+
+
+    #bar {
+        display: flex;
+        font-size: 30px;
+        margin: 20px;
+        color: rgb(2, 136, 252);
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #close {
+        font-size: 27px;
+        top: 5px;
+        position: absolute;
+        left: 10px;
+        color: rgb(2, 2, 2);
+    }
+
+    .firstblog img:hover {
+        width: 300px;
+    }
+
+    .blog1img img:hover {
+        width: 350px;
+    }
+
+    #headerimg {
+        width: 100%;
+        height: 20vh;
+    }
+     
+    /*.pooltables {
+        display: flex;
+        flex-direction: row;
+        align-items:baseline;
+        justify-content: center;
+        width: 800px;
+        overflow: auto;
+        left: 100px;
+    }*/
+
+    .pooltable img {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .pooltable img {
+        width: 150px;
+    }
+
+    .pooltable i {
+        color: gold;
+        font-size: 55%;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+}
+
+.headerimg{
+    margin: 30px 50px;
+}
+
+
+#headerimg {
+    width: 100%;
+    height: 60vh;
+}
+
+.pooltable img {
+    width: 100%;
+}
+
+.pooltable img:hover {
+    width: 260px;
+}
+
+.pooltables {
+    text-align: center;
+    justify-content: center;
+    margin: 4px 20px; 
+    width: 100%;
+    height: 70vh;
+    box-sizing: border-box;
+    float: left;
+}
+
+.pooltable {
+    text-align: center;
+    justify-content: center;
+    margin: 4px 20px;
+}
+
+.pooltable p {
+    color: red;
+    font-size: 18px;
+}
+
+.pooltable i {
+    color: gold;
+}
+
+.pooltables {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: auto;
+}
+
+#body h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#body {
+    background-color: rgb(207, 249, 249);
+}
+
+#body h3 {
+    font-size: 13px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(255, 165, 30);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 {
+    text-align: center;
+    background-color: rgba(255, 165, 30);
+}
+
+.footer2 .information {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.information a {
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+}
+
+.allcategories {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.allcategories a{
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+}
+
+.privacy {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.activepage {
+    border-bottom: 2px solid rgb(82, 82, 252);
+    color: rgb(173, 173, 245);
+}
+
+
+
+.return {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.shipping {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.pools-info {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.firstblog {
+    text-align: center;
+    justify-content: center;
+    margin: auto 40px;
+}
+
+.firstblog img {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.firstblog h2 {
+    font-size: 15px;
+}
+
+.firstblog p {
+    font-size: 13px;
+}
+
+.firstblog button {
+    margin-bottom: 50px;
+    padding: 10px 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 3px 3px 5px black;
+}
+
+.firstblog button:hover{
+    background-color: rgba(128, 128, 128, 0.825);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.697);
+    color: rgba(0, 0, 0, 0.762);
+    cursor: pointer;
+}
+
+.firstblog .img2 {
+    width: 70%;
+}
+
+.blog {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.blognavbutton {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.blognavbutton button {
+    margin: 50px 20px ;
+    padding: 6px 10px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.767);
+}
+
+.firstblog button a {
+    text-decoration: none;
+    color: black;
+}
+
+.blognavbutton button a{
+    text-decoration: none;
+    color: black;
+}
+
+.blognavbutton .activeblog {
+    background-color: red;
+    font-size: 1.5rem;
+}
+
+.blog1img img{
+    margin: 40px auto;
+    width: 70%;
+}
+
+.blog1img p {
+    font-size: 13px;
+}
+
+.contact {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#facebook {
+    color: blue;
+}
+
+#whatsapp{
+    color: green;
+}
+
+#instagram {
+    color: rgb(252, 58, 91);
+} 
+
+.icons a i {
+    font-size: 70px;
+    margin: 10px auto;
+}
+
+.icons i {
+    font-size: 10pxpx;
+}
+
+.contactheader {
+    background-color: black;
+    color: white;
+    height: 30VH;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 89px;
+}
